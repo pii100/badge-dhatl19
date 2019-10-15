@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name ili9341_3.2_touch_sd)(type KiCad)(uri ${KIPRJMOD}/ili9341_3.2_touch_sd.pretty)(options "")(descr ""))
+  (lib (name badge-dhatl19)(type KiCad)(uri ${KIPRJMOD}/badge-dhatl19.pretty)(options "")(descr ""))
+)

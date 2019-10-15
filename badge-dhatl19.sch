@@ -629,7 +629,7 @@ U 1 1 5DA662D3
 P 8750 1450
 F 0 "U2" H 8150 2000 50  0000 C CNN
 F 1 "ili9341_3.2_touch_sd" H 8825 2000 50  0001 L CNN
-F 2 "Display:ili9341_3.2_touch_sd" H 8631 814 50  0001 C CNN
+F 2 "ili9341_3.2_touch_sd:ili9341_3.2_touch_sd" H 8631 814 50  0001 C CNN
 F 3 "http://www.lcdwiki.com/3.2inch_SPI_Module_ILI9341_SKU:MSP3218" H 8100 1950 50  0001 C CNN
 	1    8750 1450
 	1    0    0    -1  
