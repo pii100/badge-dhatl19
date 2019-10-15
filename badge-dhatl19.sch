@@ -25,17 +25,6 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7500 2875 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Driver_Display:CR2013-MI2120 U2
-U 1 1 5DA538FF
-P 8600 2050
-F 0 "U2" H 8600 2831 50  0000 C CNN
-F 1 "CR2013-MI2120" H 8600 2740 50  0000 C CNN
-F 2 "Display:CR2013-MI2120" H 8600 1350 50  0001 C CNN
-F 3 "http://pan.baidu.com/s/11Y990" H 7950 2550 50  0001 C CNN
-	1    8600 2050
-	1    0    0    -1  
-$EndComp
-$Comp
 L RF_Module:ESP32-WROOM-32 U1
 U 1 1 5DA4E92D
 P 5600 3850
@@ -645,4 +634,15 @@ Wire Wire Line
 	10700 5350 7100 5350
 Wire Wire Line
 	7100 5350 7100 5750
+$Comp
+L ili9341_3.2_touch_sd:ili9341_3.2_touch_sd U?
+U 1 1 5DA662D3
+P 8750 1450
+F 0 "U?" H 8750 2139 50  0000 C CNN
+F 1 "ili9341_3.2_touch_sd" H 8825 2000 50  0001 L CNN
+F 2 "Display:ili9341_3.2_touch_sd" H 8631 814 50  0001 C CNN
+F 3 "http://www.lcdwiki.com/3.2inch_SPI_Module_ILI9341_SKU:MSP3218" H 8100 1950 50  0001 C CNN
+	1    8750 1450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
