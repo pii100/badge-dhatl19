@@ -3,6 +3,7 @@ EESchema-DOCLIB  Version 2.0
 $CMP ili9341_3.2_touch_sd
 D ILI9341 controller, SPI TFT LCD Display, Touch, 14-pin breakout PCB, 4-pin SD card interface, 5V/3.3V
 K driver display
+F http://www.lcdwiki.com/3.2inch_SPI_Module_ILI9341_SKU:MSP3218
 $ENDCMP
 #
 #End Doc Library
