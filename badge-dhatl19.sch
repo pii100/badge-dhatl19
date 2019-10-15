@@ -25,17 +25,6 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7500 2875 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L RF_Module:ESP32-WROOM-32 U1
-U 1 1 5DA4E92D
-P 5600 3850
-F 0 "U1" H 6050 5200 50  0000 C CNN
-F 1 "ESP32-WROOM-32" H 5600 5340 50  0001 C CNN
-F 2 "RF_Module:ESP32-WROOM-32" H 5600 2350 50  0001 C CNN
-F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" H 5300 3900 50  0001 C CNN
-	1    5600 3850
-	1    0    0    -1  
-$EndComp
-$Comp
 L LED:WS2812B D2
 U 1 1 5DA70DD2
 P 8000 3250
@@ -570,29 +559,29 @@ Wire Wire Line
 $Comp
 L power:+3.3V #PWR0112
 U 1 1 5DA9E6EE
-P 5600 2200
-F 0 "#PWR0112" H 5600 2050 50  0001 C CNN
-F 1 "+3.3V" H 5615 2373 50  0000 C CNN
-F 2 "" H 5600 2200 50  0001 C CNN
-F 3 "" H 5600 2200 50  0001 C CNN
-	1    5600 2200
+P 4900 2150
+F 0 "#PWR0112" H 4900 2000 50  0001 C CNN
+F 1 "+3.3V" H 4915 2323 50  0000 C CNN
+F 2 "" H 4900 2150 50  0001 C CNN
+F 3 "" H 4900 2150 50  0001 C CNN
+	1    4900 2150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5600 2200 5600 2450
+	4900 2150 4900 2400
 $Comp
 L power:GND #PWR0113
 U 1 1 5DAA0E4E
-P 5600 5450
-F 0 "#PWR0113" H 5600 5200 50  0001 C CNN
-F 1 "GND" H 5605 5277 50  0000 C CNN
-F 2 "" H 5600 5450 50  0001 C CNN
-F 3 "" H 5600 5450 50  0001 C CNN
-	1    5600 5450
+P 4900 5400
+F 0 "#PWR0113" H 4900 5150 50  0001 C CNN
+F 1 "GND" H 4905 5227 50  0000 C CNN
+F 2 "" H 4900 5400 50  0001 C CNN
+F 3 "" H 4900 5400 50  0001 C CNN
+	1    4900 5400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5600 5250 5600 5450
+	4900 5200 4900 5400
 $Comp
 L power:GND #PWR0114
 U 1 1 5DAA2B4A
@@ -638,11 +627,122 @@ $Comp
 L ili9341_3.2_touch_sd:ili9341_3.2_touch_sd U?
 U 1 1 5DA662D3
 P 8750 1450
-F 0 "U?" H 8750 2139 50  0000 C CNN
+F 0 "U?" H 8150 2000 50  0000 C CNN
 F 1 "ili9341_3.2_touch_sd" H 8825 2000 50  0001 L CNN
 F 2 "Display:ili9341_3.2_touch_sd" H 8631 814 50  0001 C CNN
 F 3 "http://www.lcdwiki.com/3.2inch_SPI_Module_ILI9341_SKU:MSP3218" H 8100 1950 50  0001 C CNN
 	1    8750 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DA68181
+P 8750 2700
+F 0 "#PWR?" H 8750 2450 50  0001 C CNN
+F 1 "GND" H 8755 2527 50  0000 C CNN
+F 2 "" H 8750 2700 50  0001 C CNN
+F 3 "" H 8750 2700 50  0001 C CNN
+	1    8750 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DA68B7D
+P 8750 700
+F 0 "#PWR?" H 8750 550 50  0001 C CNN
+F 1 "+3.3V" H 8765 873 50  0000 C CNN
+F 2 "" H 8750 700 50  0001 C CNN
+F 3 "" H 8750 700 50  0001 C CNN
+	1    8750 700 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 700  8750 850 
+Wire Wire Line
+	8750 2700 8750 2550
+Text Label 9700 1150 0    50   ~ 0
+DISPLAY_DC
+Text Label 9700 1250 0    50   ~ 0
+DISPLAY_CS
+Text Label 9700 1350 0    50   ~ 0
+DISPLAY_MOSI
+Text Label 9700 1450 0    50   ~ 0
+DISPLAY_MISO
+Text Label 9700 1550 0    50   ~ 0
+DISPLAY_SCK
+Text Label 9700 1650 0    50   ~ 0
+DISPLAY_LED
+Text Label 9700 1750 0    50   ~ 0
+DISPLAY_RST
+Text Label 9700 1850 0    50   ~ 0
+DISPLAY_T_CLK
+Text Label 9700 1950 0    50   ~ 0
+DISPLAY_T_CS
+Text Label 9700 2050 0    50   ~ 0
+DISPLAY_T_DIN
+Text Label 9700 2150 0    50   ~ 0
+DISPLAY_T_DO
+Text Label 9700 2250 0    50   ~ 0
+DISPLAY_T_IRQ
+Text Label 7850 1050 2    50   ~ 0
+SD_CS
+Text Label 7850 1150 2    50   ~ 0
+DISPLAY_MOSI
+Text Label 7850 1250 2    50   ~ 0
+DISPLAY_MISO
+Text Label 7850 1350 2    50   ~ 0
+DISPLAY_SCK
+Wire Wire Line
+	9550 1150 9700 1150
+Wire Wire Line
+	9700 1250 9550 1250
+Wire Wire Line
+	9550 1350 9700 1350
+Wire Wire Line
+	9550 1450 9700 1450
+Wire Wire Line
+	9550 1550 9700 1550
+Wire Wire Line
+	9550 1650 9700 1650
+Wire Wire Line
+	9550 1750 9700 1750
+Wire Wire Line
+	9550 1850 9700 1850
+Wire Wire Line
+	9550 1950 9700 1950
+Wire Wire Line
+	9550 2050 9700 2050
+Wire Wire Line
+	9550 2150 9700 2150
+Wire Wire Line
+	9550 2250 9700 2250
+Wire Wire Line
+	7850 1050 7950 1050
+Wire Wire Line
+	7850 1150 7950 1150
+Wire Wire Line
+	7850 1250 7950 1250
+Wire Wire Line
+	7950 1350 7850 1350
+Text Label 6950 3250 2    50   ~ 0
+RGB_DIN
+Wire Wire Line
+	10700 4050 10700 4500
+Wire Wire Line
+	10700 4500 7100 4500
+Wire Wire Line
+	7100 4500 7100 4950
+Wire Wire Line
+	6950 3250 7100 3250
+$Comp
+L RF_Module:ESP32-WROOM-32 U1
+U 1 1 5DA4E92D
+P 4900 3800
+F 0 "U1" H 5350 5150 50  0000 C CNN
+F 1 "ESP32-WROOM-32" H 4900 5290 50  0001 C CNN
+F 2 "RF_Module:ESP32-WROOM-32" H 4900 2300 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" H 4600 3850 50  0001 C CNN
+	1    4900 3800
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
