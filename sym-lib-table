@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ili9341_3.2_touch_sd)(type Legacy)(uri ${KIPRJMOD}/ili9341_3.2_touch_sd.lib)(options "")(descr ""))
+)
