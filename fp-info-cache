@@ -1,4 +1,4 @@
-16364266529841717
+16365837686373717
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44379,6 +44379,13 @@ LCD 16x2 Alphanumeric 16pin
 0
 20
 16
+Display
+ili9341_3.2_touch_sd
+CR2013-MI2120 ILI9341 LCD Breakout http://pan.baidu.com/s/11Y990
+CR2013-MI2120 ILI9341 LCD Breakout
+0
+14
+14
 Display_7Segment
 7SEGMENT-LED__HDSM531_HDSM533_SMD
 7-Segment Display, HDSM53x, https://docs.broadcom.com/docs/AV02-0713EN
