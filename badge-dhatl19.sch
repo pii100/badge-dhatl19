@@ -773,4 +773,73 @@ Text Label 5650 4800 0    50   ~ 0
 RGB_DIN
 Wire Wire Line
 	5500 4800 5650 4800
+$Comp
+L badgelife_shitty_addon_v169bis:Badgelife_sao_connector_v169bis X1
+U 1 1 5DB24E23
+P 6700 1700
+F 0 "X1" H 7028 1700 50  0000 L CNN
+F 1 "Badgelife_sao_connector_v169bis" H 7028 1655 50  0001 L CNN
+F 2 "badgelife_shitty_addon_v169bis:Badgelife-SAOv169-BADGE-2x3" H 6700 1900 50  0001 C CNN
+F 3 "" H 6700 1900 50  0001 C CNN
+	1    6700 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0117
+U 1 1 5DB26D5E
+P 6500 2400
+F 0 "#PWR0117" H 6500 2150 50  0001 C CNN
+F 1 "GND" H 6505 2227 50  0000 C CNN
+F 2 "" H 6500 2400 50  0001 C CNN
+F 3 "" H 6500 2400 50  0001 C CNN
+	1    6500 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0118
+U 1 1 5DB274B2
+P 6500 1000
+F 0 "#PWR0118" H 6500 850 50  0001 C CNN
+F 1 "+3.3V" H 6515 1173 50  0000 C CNN
+F 2 "" H 6500 1000 50  0001 C CNN
+F 3 "" H 6500 1000 50  0001 C CNN
+	1    6500 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 1150 6500 1000
+Wire Wire Line
+	6500 2250 6500 2400
+Text Label 6700 2400 3    50   ~ 0
+SAO_SCL
+Text Label 6900 2400 3    50   ~ 0
+SAO_GPIO2
+Text Label 6700 1050 1    50   ~ 0
+SAO_SDA
+Text Label 6900 1050 1    50   ~ 0
+SAO_GPIO1
+Wire Wire Line
+	6900 1050 6900 1150
+Wire Wire Line
+	6700 1050 6700 1150
+Wire Wire Line
+	6700 2250 6700 2400
+Wire Wire Line
+	6900 2250 6900 2400
+Text Label 5650 4700 0    50   ~ 0
+SAO_SDA
+Text Label 5650 4600 0    50   ~ 0
+SAO_SCL
+Text Label 5650 4400 0    50   ~ 0
+SAO_GPIO1
+Text Label 5650 4500 0    50   ~ 0
+SAO_GPIO2
+Wire Wire Line
+	5650 4400 5500 4400
+Wire Wire Line
+	5500 4500 5650 4500
+Wire Wire Line
+	5650 4600 5500 4600
+Wire Wire Line
+	5500 4700 5650 4700
 $EndSCHEMATC
