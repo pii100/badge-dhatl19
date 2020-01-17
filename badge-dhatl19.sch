@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:badge-dhatl19-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -62,16 +63,14 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0113
 U 1 1 5DAA0E4E
-P 4900 5400
-F 0 "#PWR0113" H 4900 5150 50  0001 C CNN
-F 1 "GND" H 4905 5227 50  0000 C CNN
-F 2 "" H 4900 5400 50  0001 C CNN
-F 3 "" H 4900 5400 50  0001 C CNN
-	1    4900 5400
+P 5150 4700
+F 0 "#PWR0113" H 5150 4450 50  0001 C CNN
+F 1 "GND" H 5155 4527 50  0000 C CNN
+F 2 "" H 5150 4700 50  0001 C CNN
+F 3 "" H 5150 4700 50  0001 C CNN
+	1    5150 4700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4900 5200 4900 5400
 $Comp
 L ili9341_3.2_touch_sd:ili9341_3.2_touch_sd U2
 U 1 1 5DA662D3
@@ -173,17 +172,6 @@ Wire Wire Line
 	7850 1250 7950 1250
 Wire Wire Line
 	7950 1350 7850 1350
-$Comp
-L RF_Module:ESP32-WROOM-32 U1
-U 1 1 5DA4E92D
-P 4900 3800
-F 0 "U1" H 5350 5150 50  0000 C CNN
-F 1 "ESP32-WROOM-32" H 4900 5290 50  0001 C CNN
-F 2 "RF_Module:ESP32-WROOM-32" H 4900 2300 50  0001 C CNN
-F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" H 4600 3850 50  0001 C CNN
-	1    4900 3800
-	1    0    0    -1  
-$EndComp
 Text Label 5650 3700 0    50   ~ 0
 DISPLAY_DC
 Text Label 5650 3100 0    50   ~ 0
@@ -212,17 +200,6 @@ Text Label 5650 4800 0    50   ~ 0
 RGB_DIN1
 Wire Wire Line
 	5500 4800 5650 4800
-$Comp
-L badgelife_shitty_addon_v169bis:Badgelife_sao_connector_v169bis X1
-U 1 1 5DB24E23
-P 6700 1700
-F 0 "X1" H 7028 1700 50  0000 L CNN
-F 1 "Badgelife_sao_connector_v169bis" H 7028 1655 50  0001 L CNN
-F 2 "badgelife_shitty_addon_v169bis:Badgelife-SAOv169-BADGE-2x3" H 6700 1900 50  0001 C CNN
-F 3 "" H 6700 1900 50  0001 C CNN
-	1    6700 1700
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0117
 U 1 1 5DB26D5E
@@ -281,72 +258,6 @@ Wire Wire Line
 	5650 4600 5500 4600
 Wire Wire Line
 	5500 4700 5650 4700
-$Comp
-L Connector_Generic:Conn_01x01 J1
-U 1 1 5DB818B5
-P 6200 6000
-F 0 "J1" H 6280 6042 50  0000 L CNN
-F 1 "Conn_01x01" H 6280 5951 50  0000 L CNN
-F 2 "" H 6200 6000 50  0001 C CNN
-F 3 "~" H 6200 6000 50  0001 C CNN
-	1    6200 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J2
-U 1 1 5DB82491
-P 6200 6200
-F 0 "J2" H 6280 6242 50  0000 L CNN
-F 1 "Conn_01x01" H 6280 6151 50  0000 L CNN
-F 2 "" H 6200 6200 50  0001 C CNN
-F 3 "~" H 6200 6200 50  0001 C CNN
-	1    6200 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J3
-U 1 1 5DB82F83
-P 6200 6400
-F 0 "J3" H 6280 6442 50  0000 L CNN
-F 1 "Conn_01x01" H 6280 6351 50  0000 L CNN
-F 2 "" H 6200 6400 50  0001 C CNN
-F 3 "~" H 6200 6400 50  0001 C CNN
-	1    6200 6400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J4
-U 1 1 5DB8B6B9
-P 6200 6800
-F 0 "J4" H 6280 6842 50  0000 L CNN
-F 1 "Conn_01x01" H 6280 6751 50  0000 L CNN
-F 2 "" H 6200 6800 50  0001 C CNN
-F 3 "~" H 6200 6800 50  0001 C CNN
-	1    6200 6800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J5
-U 1 1 5DB8B6BF
-P 6200 7000
-F 0 "J5" H 6280 7042 50  0000 L CNN
-F 1 "Conn_01x01" H 6280 6951 50  0000 L CNN
-F 2 "" H 6200 7000 50  0001 C CNN
-F 3 "~" H 6200 7000 50  0001 C CNN
-	1    6200 7000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J6
-U 1 1 5DB8B6C5
-P 6200 7200
-F 0 "J6" H 6280 7242 50  0000 L CNN
-F 1 "Conn_01x01" H 6280 7151 50  0000 L CNN
-F 2 "" H 6200 7200 50  0001 C CNN
-F 3 "~" H 6200 7200 50  0001 C CNN
-	1    6200 7200
-	1    0    0    -1  
-$EndComp
 Text Label 5650 4900 0    50   ~ 0
 RGB_DIN2
 Wire Wire Line
@@ -411,4 +322,39 @@ Wire Wire Line
 	5750 6200 6000 6200
 Wire Wire Line
 	5750 6400 6000 6400
+$Comp
+L badge-dhatl19:ws2812strip12x D?
+U 1 1 5E21B67D
+P 3500 6000
+F 0 "D?" H 3500 6325 50  0000 C CNN
+F 1 "ws2812strip12x" H 3500 6234 50  0000 C CNN
+F 2 "" H 3250 5850 50  0001 C CNN
+F 3 "" H 3250 5850 50  0001 C CNN
+	1    3500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L badge-dhatl19:ws2812strip12x D?
+U 1 1 5E21C040
+P 3500 6900
+F 0 "D?" H 3500 7225 50  0000 C CNN
+F 1 "ws2812strip12x" H 3500 7134 50  0000 C CNN
+F 2 "" H 3250 6750 50  0001 C CNN
+F 3 "" H 3250 6750 50  0001 C CNN
+	1    3500 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L badge-dhatl19:LolinD32_pro U?
+U 1 1 5E21CBA2
+P 4200 3950
+F 0 "U?" H 4225 4965 50  0000 C CNN
+F 1 "LolinD32_pro" H 4225 4874 50  0000 C CNN
+F 2 "" H 3550 4750 50  0001 C CNN
+F 3 "" H 3550 4750 50  0001 C CNN
+	1    4200 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 4700 5150 4700
 $EndSCHEMATC

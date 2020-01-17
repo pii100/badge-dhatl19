@@ -1,4 +1,4 @@
-16372117851112604
+16373697274332604
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -73177,6 +73177,13 @@ lipo_usb_singlecell
 0
 4
 4
+badge-dhatl19
+ws2812strip12x
+
+
+0
+6
+6
 badgelife_shitty_addon_v169bis
 Badgelife-SAOv169-BADGE-2x3
 Through hole straight IDC box header, 2x03, 2.54mm pitch, double rows
