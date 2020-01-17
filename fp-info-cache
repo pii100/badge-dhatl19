@@ -1,4 +1,4 @@
-16365837702793438
+16372117851112604
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -73163,6 +73163,34 @@ varistor SIOV
 0
 2
 2
+badge-dhatl19
+LolinD32_pro
+
+
+0
+32
+32
+badge-dhatl19
+lipo_usb_singlecell
+
+
+0
+4
+4
+badgelife_shitty_addon_v169bis
+Badgelife-SAOv169-BADGE-2x3
+Through hole straight IDC box header, 2x03, 2.54mm pitch, double rows
+Through hole IDC box header THT 2x03 2.54mm double row
+0
+6
+6
+badgelife_shitty_addon_v169bis
+Badgelife-SAOv169-SAO-2x3
+Through hole straight IDC box header, 2x03, 2.54mm pitch, double rows
+Through hole IDC box header THT 2x03 2.54mm double row
+0
+6
+6
 ili9341_3.2_touch_sd
 ili9341_3.2_touch_sd
 CR2013-MI2120 ILI9341 LCD Breakout http://pan.baidu.com/s/11Y990
