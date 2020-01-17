@@ -2,4 +2,5 @@
   (lib (name ili9341_3.2_touch_sd)(type Legacy)(uri ${KIPRJMOD}/ili9341_3.2_touch_sd.lib)(options "")(descr ""))
   (lib (name badge-dhatl19)(type Legacy)(uri ${KIPRJMOD}/badge-dhatl19.lib)(options "")(descr ""))
   (lib (name badgelife_shitty_addon_v169bis)(type Legacy)(uri /Users/blackstone/Downloads/badgelife-parts-master/badgelife_shitty_addon_v169bis.lib)(options "")(descr ""))
+  (lib (name badge-dhatl19-rescue)(type Legacy)(uri ${KIPRJMOD}/badge-dhatl19-rescue.lib)(options "")(descr ""))
 )
