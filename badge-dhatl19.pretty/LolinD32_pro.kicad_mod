@@ -1,5 +1,5 @@
-(module LolinD32_pro (layer F.Cu) (tedit 5E21461C)
-  (fp_text reference U** (at -0.2286 -35.4838) (layer F.SilkS)
+(module LolinD32_pro (layer F.Cu) (tedit 5E214CF7)
+  (fp_text reference REF** (at -0.2286 -35.4838) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value LolinD32_pro (at -1.1176 34.925) (layer F.Fab)
